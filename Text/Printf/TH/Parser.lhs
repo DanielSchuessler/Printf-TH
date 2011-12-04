@@ -4,10 +4,10 @@ module Text.Printf.TH.Parser (parse) where
 
 import Language.Haskell.TH
 import Language.Haskell.TH.Syntax
-import Maybe (isJust, fromJust)
+import Data.Maybe (isJust, fromJust)
 import Text.Printf.TH.Printer (get_conversion_func)
-import Char (isDigit)
-import List (nub, delete)
+import Data.Char (isDigit)
+import Data.List (nub, delete)
 import Text.Printf.TH.Types
 
 {-

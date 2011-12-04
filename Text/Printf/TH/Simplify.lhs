@@ -4,7 +4,7 @@ module Text.Printf.TH.Simplify (simplify, Simplify) where
 
 import Language.Haskell.TH.Syntax
 import Language.Haskell.TH
-import Monad (liftM)
+import Control.Monad (liftM)
 
 class Simplify a where
     simplify :: a -> a

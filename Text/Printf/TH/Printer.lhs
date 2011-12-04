@@ -4,9 +4,9 @@ module Text.Printf.TH.Printer (get_conversion_func, thousandify, octalify, hexif
 
 import Language.Haskell.TH
 import Language.Haskell.TH.Syntax
-import Maybe (fromMaybe)
+import Data.Maybe (fromMaybe)
 import Numeric (showEFloat, showFFloat)
-import Char (toLower, toUpper)
+import Data.Char (toLower, toUpper)
 import Text.Printf.TH.Types
 
 {-

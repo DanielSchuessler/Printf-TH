@@ -5,8 +5,7 @@ version:         0.1.1
 Category:        Utils
 Build-Type:      Simple
 license:         LGPL
-Build-Depends:   haskell98
-                 ,base
+Build-Depends:    base
                  ,template-haskell
                  , pretty
 exposed-modules: Text.Printf.TH
